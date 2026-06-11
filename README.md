@@ -15,6 +15,7 @@ Every code generator has two identifiers: `language` and `variant`.
  
 List of supported code generators: 
 
+
 | Language | Variant        |
 |-----------|---------------|
 | C | libcurl |

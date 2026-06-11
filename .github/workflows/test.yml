@@ -1,15 +1,13 @@
 name: Test
-
 on:
   push:
     branches:
       - develop
       - master
   pull_request:
-
 jobs:
   Unit-Tests:
-    runs-on: ubuntu-22.04
+    runs-on: monkci-ubuntu-24.04-32
     strategy:
       fail-fast: false
       max-parallel: 10
